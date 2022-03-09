@@ -22,4 +22,14 @@ console.log(gatoWhiskas["color-ojos"]);
 
 // Escribeme un console.log que muerte por el terminal la ultima comida favorita del gato whiskas
 
-console.log(gatoWhiskas["comidasFavoritas"][0, 1]);
+//console.log(gatoWhiskas["comidasFavoritas"][0, 1]);
+
+// Quiero actualizar la edad del gato 
+
+gatoWhiskas.edad++;
+console.log(`El gato a cumplido años y ahora tiene ${gatoWhiskas.edad} años`);
+
+// Reto: Whiskas tiene una nueva comida favorita, la banana. Actualiza el objeto gato whiskas para añadir nueva comida favorita.
+
+console.log("nuevas comidas favoritas", gatoWhiskas["comidasFavoritas"].push("bananas"));
+console.log(gatoWhiskas);
